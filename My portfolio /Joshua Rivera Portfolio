@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua Rivera Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #3c434b; /* Dark Grey background */
+      color: #000000; /* Black text */
+      font-family: 'Roboto', sans-serif; /* Roboto font */
+    }
+
+    .navbar {
+      background-color: #343a40; /* Dark navbar */
+      border-bottom: 2px solid #212529; /* Dark border */
+    }
+
+    .navbar-brand {
+      color: #ffffff !important; /* White text */
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif; /* Roboto font */
+    }
+
+    .navbar-nav .nav-link {
+      color: #ffffff !important; /* White text */
+      font-family: 'Roboto', sans-serif; /* Roboto font */
+    }
+
+    .jumbotron {
+      background-color:  #75b077; /* Green background */
+      color: #ffffff; /* White text */
+      padding: 100px 0; /* Increased padding */
+      text-align: center;
+      font-family: 'Roboto', sans-serif; /* Roboto font */
+    }
+
+    .jumbotron h1 {
+      font-size: 3.5rem; /* Larger font size */
+      font-weight: bold;
+    }
+
+    .jumbotron p {
+      font-size: 1.5rem; /* Larger font size */
+    }
+
+    .card {
+      background-color: #75b077; /* Green cards */
+      border: none;
+      border-radius: 15px; /* Rounded corners */
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    }
+
+    .card-title {
+      color: #343a40; /* Dark text */
+      font-weight: bold;
+    }
+
+    .card-text {
+      color: #6c757d; /* Grey text */
+    }
+
+    #about {
+      background-color: #75b077; /* Green background */
+      color: #ffffff; /* White text */
+    }
+
+    footer {
+      background-color: #343a40; /* Dark footer */
+      color: #ffffff; /* White text */
+      padding: 50px 0; /* Increased padding */
+      text-align: center;
+      font-family: 'Roboto', sans-serif; /* Roboto font */
+    }
+
+    footer p {
+      margin-bottom: 0; /* Remove bottom margin */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Joshua Rivera Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Contact</a>
+          </li>
+          <!-- Add more navigation links here -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="jumbotron">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hello and welcome! I'm thrilled to have you here exploring my portfolio. Here, you'll discover a collection of my projects, passions, and creations. Whether you're here out of curiosity, seeking inspiration, or looking to collaborate, I'm excited to share my journey with you. </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://picsum.photos/300" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Designing and Building Websites</h5>
+              <p class="card-text">Creating visually appealing layouts, and crafting friednly interfaces</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project cards here -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://picsum.photos/300" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Coding</h5>
+              <p class="card-text">I have experience with multiple coding languages such as Java and C++.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://picsum.photos/300" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Blogging </h5>
+              <p class="card-text">My personal Blog website.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Who Am I?</h3>
+        <p>My name is Joshua Rivera, I am 20 years old and I am currently pursuing my college education at California Baptist University. I am from the beautiful city of San Diego, California. I am proud to be a part of a wonderful family. At the core of my being, I am a man of faith, guided by principles that instill values of integrity, compassion, and perseverance in my life. My faith serves as a beacon of strength, inspiring me to navigate life's challenges with grace and humility.</p>
+        <p>Driven by a passion for knowledge and a relentless pursuit of excellence, I am deeply immersed in the world of computer science. I am committed to carving out a promising future in the field of computer science. I aspire to make meaningful contributions to the ever-evolving landscape of technology, leveraging my skills to create innovative solutions that positively impact society.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="text-right">
+          <h3>My Skills</h3>
+          <ul class="list-unstyled text-right">
+            <li>Web Development</li>
+            <li>Graphic Design</li>
+            <li>Coding in Java and C++</li>
+            <!-- Add more skills as needed -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2024 Joshua Rivera Portfolio</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/joshxriv" class="text-white mr-3">Twitter</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://linkedin.com/in/joshuarivera" class="text-white mr-3">LinkedIn</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/joshxrivera?tab=projects" class="text-white">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
